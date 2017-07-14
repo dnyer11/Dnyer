@@ -16,3 +16,4 @@
 /vendor/
 /bin/
 /web/bundles/
+.DS_Store

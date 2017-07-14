@@ -15,9 +15,13 @@
 	{% endblock %}
 </head>
 <body>
+	{% block header %}{% endblock %}
+
 	<div class="main-container">
 		{% block body %}{% endblock %}
 	</div>
+
+	{% block footer %}{% endblock %}
 
 	{% block javascripts %}
 		<script type="text/javascript" src="/node_modules/jquery/dist/jquery.min.js"></script>
